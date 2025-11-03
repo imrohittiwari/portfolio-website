@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: #fff;
+  box-shadow: 0 0 6px #ddd;
+  border-radius: 10px;
+}
+
+header.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0074d9;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.about img {
+  margin-top: 1rem;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  background: #f1f1f1;
+  margin-bottom: .6rem;
+  border-radius: 6px;
+  padding: 0.8rem;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #888;
+}
