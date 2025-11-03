@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://imrohittiwari.github.io/portfolio-website", // <-- replace this with your repo name
+  "homepage": "https://imrohittiwari.github.io/portfolio-website",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -15,6 +15,18 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -9,7 +9,7 @@ const About = () => (
       Technologies: React, Node.js, JavaScript, CSS, Express, MongoDB, and more!
     </p>
     <img 
-      src="https://avatars.githubusercontent.com/u/your-github-id?v=4" 
+      src="/portfolio-website/IMG_20250831_015906.jpg" 
       alt="Rohit Tiwari"
       style={{ width: '140px', borderRadius: '50%' }}
     />
